@@ -30,7 +30,7 @@
             font-size:20px;
             margin-bottom: 125px;
         }
-        .top-bar-guidance{font-size:15px;color:#fff;height:30%;line-height:1.8;padding-left:20px;padding-top:20px;background:url(//gw.alicdn.com/tfs/TB1eSZaNFXXXXb.XXXXXXXXXXXX-750-234.png) center top/contain no-repeat}
+        .top-bar-guidance{font-size:15px;color:#fff;height:30%;line-height:1.8;padding-left:20px;padding-top:20px;background:url(https://gw.alicdn.com/tfs/TB1eSZaNFXXXXb.XXXXXXXXXXXX-750-234.png) center top/contain no-repeat}
         .top-bar-guidance .icon-safari{width:25px;height:25px;vertical-align:middle;margin:0 .2em}
         .app-download-tip{margin:0 auto;width:290px;text-align:center;font-size:15px;color:#2466f4;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAcAQMAAACak0ePAAAABlBMVEUAAAAdYfh+GakkAAAAAXRSTlMAQObYZgAAAA5JREFUCNdjwA8acEkAAAy4AIE4hQq/AAAAAElFTkSuQmCC) left center/auto 15px repeat-x}
         .app-download-tip .guidance-desc{background-color:#fff;padding:0 5px}
@@ -38,7 +38,10 @@
     </style>
 </head>
 <body>
-
+<div class="top-bar-guidance">
+    <p>点击右上角 <span id="openm">Safari打开</span></p>
+    <p>可以继续浏览本站哦~</p>
+</div>
 <script type="text/javascript">
     var ua = window.navigator.userAgent.toLowerCase();
     if (ua.match(/MicroMessenger/i) == 'micromessenger') {
@@ -48,10 +51,7 @@
     }
 </script
 
-<div class="top-bar-guidance">
-    <p>点击右上角 <span id="openm">Safari打开</span></p>
-    <p>可以继续浏览本站哦~</p>
-</div>
+
 <a style="display: none;" href="" id="vurl" rel="noreferrer"></a>
 <div id="browser">
     <img src="https://ae01.alicdn.com/kf/U646c99f0d86d4285aa6555b8d1b7f7ecL.jpg" style="width:50%;">
